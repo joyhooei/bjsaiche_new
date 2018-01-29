@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -74,6 +75,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         Toast.makeText(this,"已获得定位权限",Toast.LENGTH_SHORT).show();
+        //添加的内容
+        Log.d("lee","暂存");
     }
 
     private void initData() {
