@@ -1,4 +1,4 @@
-package com.cn.bjsc.util;
+package com.cn.ssc.util;
 
 import android.content.Context;
 import android.util.Log;

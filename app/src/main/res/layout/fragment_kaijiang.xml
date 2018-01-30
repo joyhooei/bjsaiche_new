@@ -3,7 +3,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="com.cn.bjsc.MainActivity">
+              tools:context="com.cn.ssc.MainActivity">
 <RelativeLayout
     android:id="@+id/head"
     android:layout_width="match_parent"

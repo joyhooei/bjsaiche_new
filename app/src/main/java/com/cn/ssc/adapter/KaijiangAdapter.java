@@ -1,4 +1,4 @@
-package com.cn.bjsc.adapter;
+package com.cn.ssc.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.cn.bjsc.R;
-import com.cn.bjsc.bean.KaiJiangInfo;
+import com.cn.ssc.R;
+import com.cn.ssc.bean.KaiJiangInfo;
 
 import java.util.List;
 

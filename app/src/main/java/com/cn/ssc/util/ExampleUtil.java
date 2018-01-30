@@ -1,4 +1,4 @@
-package com.cn.bjsc.util;
+package com.cn.ssc.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

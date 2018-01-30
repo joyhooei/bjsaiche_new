@@ -1,8 +1,8 @@
-package com.cn.bjsc.util;
+package com.cn.ssc.util;
 
 import android.util.Log;
 
-import com.cn.bjsc.bean.KaiJiangInfo;
+import com.cn.ssc.bean.KaiJiangInfo;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.cn.bjsc.adapter;
+package com.cn.ssc.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

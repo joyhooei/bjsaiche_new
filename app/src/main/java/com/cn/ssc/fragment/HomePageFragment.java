@@ -1,4 +1,4 @@
-package com.cn.bjsc.fragment;
+package com.cn.ssc.fragment;
 
 
 import android.content.Intent;
@@ -13,12 +13,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.cn.bjsc.R;
-import com.cn.bjsc.ShuoMingActivity;
-import com.cn.bjsc.WanFaActivity;
-import com.cn.bjsc.util.LocationUtil;
-import com.cn.bjsc.util.ParseJsonUtil;
-import com.cn.bjsc.util.WeatherUtil;
+import com.cn.ssc.R;
+import com.cn.ssc.ShuoMingActivity;
+import com.cn.ssc.WanFaActivity;
+import com.cn.ssc.util.LocationUtil;
+import com.cn.ssc.util.ParseJsonUtil;
+import com.cn.ssc.util.WeatherUtil;
 
 import java.util.ArrayList;
 

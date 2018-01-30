@@ -1,4 +1,4 @@
-package com.cn.bjsc.adapter;
+package com.cn.ssc.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.cn.bjsc.MainActivity;
-import com.cn.bjsc.R;
+import com.cn.ssc.MainActivity;
+import com.cn.ssc.R;
 
 import java.util.List;
 

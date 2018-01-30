@@ -1,4 +1,4 @@
-package com.cn.bjsc;
+package com.cn.ssc;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -19,10 +19,10 @@ import android.widget.Toast;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
-import com.cn.bjsc.adapter.MainAdapter;
-import com.cn.bjsc.fragment.HomePageFragment;
-import com.cn.bjsc.fragment.KaijiangFragment;
-import com.cn.bjsc.fragment.ZoushiFragment;
+import com.cn.ssc.adapter.MainAdapter;
+import com.cn.ssc.fragment.HomePageFragment;
+import com.cn.ssc.fragment.KaijiangFragment;
+import com.cn.ssc.fragment.ZoushiFragment;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.cn.bjsc;
+package com.cn.ssc;
 
 import android.app.Activity;
 import android.content.Intent;

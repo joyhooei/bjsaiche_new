@@ -1,4 +1,4 @@
-package com.cn.bjsc.fragment;
+package com.cn.ssc.fragment;
 
 
 import android.app.ProgressDialog;
@@ -33,11 +33,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.cn.bjsc.MainActivity;
-import com.cn.bjsc.R;
-import com.cn.bjsc.adapter.KaijiangAdapter;
-import com.cn.bjsc.bean.KaiJiangInfo;
-import com.cn.bjsc.util.ParseJsonUtil;
+import com.cn.ssc.MainActivity;
+import com.cn.ssc.R;
+import com.cn.ssc.adapter.KaijiangAdapter;
+import com.cn.ssc.bean.KaiJiangInfo;
+import com.cn.ssc.util.ParseJsonUtil;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.HttpClient;
@@ -230,7 +230,7 @@ public class KaijiangFragment extends Fragment {
                         }
                         File file1 = new File(
                                 Environment.getExternalStorageDirectory()+"/bjsc",
-                                "bjsc.apk");
+                                "ssc.apk");
                         fileOutputStream = new FileOutputStream(file1);
                         byte[] buf = new byte[200]; // 这个是缓冲区
                         int ch = -1;
@@ -261,16 +261,16 @@ public class KaijiangFragment extends Fragment {
         /*Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setDataAndType(
                 Uri.fromFile(new File(
-                        Environment.getExternalStorageDirectory(), "bjsc.apk")),"application/vnd.android.package-archive");
+                        Environment.getExternalStorageDirectory(), "ssc.apk")),"application/vnd.android.package-archive");
                 startActivity(intent);*/
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        File apkFile = new File(Environment.getExternalStorageDirectory()+"/bjsc/bjsc.apk");
+        File apkFile = new File(Environment.getExternalStorageDirectory()+"/bjsc/ssc.apk");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             Log.d("lee", "版本大于 N ，开始使用 fileProvider 进行安装");
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             Uri contentUri = FileProvider.getUriForFile(
                     getContext()
-                    , "com.cn.bjsc.fileprovider"
+                    , "com.cn.ssc.fileprovider"
                     , apkFile);
             intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
         } else {

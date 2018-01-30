@@ -1,4 +1,4 @@
-package com.cn.bjsc.fragment;
+package com.cn.ssc.fragment;
 
 
 import android.graphics.drawable.ColorDrawable;
@@ -14,7 +14,7 @@ import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-import com.cn.bjsc.R;
+import com.cn.ssc.R;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.cn.bjsc.util;
+package com.cn.ssc.util;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.cn.bjsc.MainActivity;
+import com.cn.ssc.MainActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.cn.bjsc.bean;
+package com.cn.ssc.bean;
 
 /**
  * Created by Administrator on 2018/1/25.

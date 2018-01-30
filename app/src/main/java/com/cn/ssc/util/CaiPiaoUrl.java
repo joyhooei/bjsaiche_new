@@ -1,4 +1,4 @@
-package com.cn.bjsc.util;
+package com.cn.ssc.util;
 
 /**
  * Created by Administrator on 2018/1/25.

@@ -1,4 +1,4 @@
-package com.cn.bjsc.adapter;
+package com.cn.ssc.adapter;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.cn.bjsc.R;
+import com.cn.ssc.R;
 
 import java.util.ArrayList;
 import java.util.List;
