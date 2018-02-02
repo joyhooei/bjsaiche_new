@@ -174,7 +174,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.cn.ssc.adapter.GuideActivity"></activity>
-
+        <!--自动安装7.0-->
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.cn.ssc.fileprovider"
